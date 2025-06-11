@@ -1,0 +1,20 @@
+.slick-arrow{
+  top: -10% !important;
+  
+}
+.slick-arrow::before{
+  color: var( --black) !important;
+}
+.slick-prev{
+  left: 90% !important;
+}
+.slick-next{
+  right: 1% !important;
+}
+.slick-prev:before, .slick-next:before{
+  font-size: 1.6rem !important;
+}
+
+.slick-slide > div{
+  margin: 0px 0.5rem;
+}

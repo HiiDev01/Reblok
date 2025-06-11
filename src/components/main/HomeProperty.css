@@ -1,0 +1,205 @@
+.homeProperty{
+  width: 100%;
+  padding: 2% 0%;
+}
+.head, .rentHead{
+  width: max-content;
+  padding: 10px;
+}
+.head h3, .rentHead h3{
+  font-size: 1.4rem;
+  color: var(--black);
+  font-weight: 700;
+  font-family: var(--font-two);
+  text-transform: capitalize;
+  margin: 0px 0px 5px 0px;
+}
+.head p{
+  font-family: var(--font-three);
+  color: var(--light-black);
+  font-weight: 400;
+  font-size: 1rem;
+}
+.rentHead p{
+  max-width: 65%;
+  font-family: var(--font-three);
+  color: var(--light-black);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+
+.currentGrid,.rentCon{
+  width: 100%;
+  margin: 0px 0px 20px 0px;
+}
+
+.currentItem{
+  min-width: 280px;
+  max-width: 300px;
+  min-height: 300px;
+  scroll-snap-type: x mandatory;
+  background-color: var(--primary);
+  box-shadow: 0px 0px 3px var(--light-black);
+  padding: 0px 0px 15px 0px;
+  border-radius: 6px;
+  margin: 10px 10px;
+  position: relative;
+}
+.currentItem .propType{
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  font-family: var(--font-three);
+  font-weight: 500;
+  background-color: rgba(134, 3, 3, 0.613);
+  color: var(--secondary);
+  text-transform: capitalize;
+  border-radius: 6px;
+  padding: 5px 10px;
+  font-size: 0.8rem;
+}
+.propImage{
+  width: 100%;
+  max-height: 150px;
+  overflow: hidden;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  margin: 0px 0px 10px 0px;
+}
+.propImage img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.propbody{
+  padding: 0px 10px;
+}
+.propbody h2{
+  font-family: var(--font-one);
+  font-weight: 600;
+  color: var(--black);
+  font-size: 1.25rem;
+  padding: 0px 0px;
+  margin: 0px 0px 10px 0px;
+}
+.propMin{
+  display: flex;
+  align-items: center;
+  margin: 0px 0px 10px 0px;
+}
+.propMin .icon{
+  color: var(--light-black);
+}
+.propMin p{
+  font-family: var(--font-one);
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+  padding: 0px 8px;
+  color: var(--day-black);
+  border-right: 2px solid var(--border);
+}
+.propMin p:nth-child(4){
+  border: none;
+  font-size: 0.9rem;
+}
+.propMin p:nth-child(1){
+  padding-left: 0px;
+}
+.protitle{
+  font-size: 0.9rem;
+  color: var(--day-black);
+  font-family: var(--font-three);
+  font-weight: 400;
+}
+
+.service{
+  width: 100%;
+  padding: 3%;
+  background-color: var(--secondary);
+  background-image: url('/bg2.png');
+  background-repeat: no-repeat;
+  background-position:  center ;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: flex-start;
+  gap: 25px;
+}
+.serviceItems{
+  width: 100%;
+  background-color: var(--primary);
+  border-radius: 10px;
+  padding: 40px 20px 60px 20px;
+  text-align: center;
+  box-shadow: 0px 0px 10px var(  --border);
+}
+.serviceItems .serviceImgCon {
+  width: 200px;
+  height: 200px;
+  margin: 0px auto;
+}
+.serviceItems .serviceImgCon img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.serviceItems h2{
+  font-family: var(--font-two);
+  color: var(--black);
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  margin: 0px 0px 10px 0px;
+}
+.serviceItems p{
+  font-size: 0.9rem;
+  color: var(--day-black);
+  font-family: var(--font-three);
+  font-weight: 400;
+  line-height: 1.4;
+  padding: 0px 10px;
+  margin: 0px 0px 40px 0px;
+}
+.serviceItems a{
+  padding: 10px 20px;
+  font-size: 1rem;
+  display: inline;
+  border: 1px solid var(--main);
+  text-decoration: none;
+  font-family: var(--font-three);
+  text-transform: capitalize;
+  font-weight: 600;
+  color: var(--main);
+  border-radius: 6px;
+  transition:   background-color 0.3s ease;
+  cursor: pointer;
+}
+.serviceItems a:hover{
+  background-color: var(--light-main);
+  transition:   background-color 0.3s ease;
+}
+.homeAbout{
+  text-align: center;
+  padding: 4% 3%;
+}
+.homeAbout h2{
+   font-size: 2rem;
+  color: var(--day-black);
+  font-weight: bold;
+  font-family: var(--font-three);
+  text-transform: capitalize;
+  margin: 0px 0px 10px 0px;
+}
+.homeAbout p{
+  width: 60%;
+  margin: 0px auto;
+  font-size: 1.1rem;
+  color: var(--light-black);
+  line-height: 1.4;
+  word-wrap: break-word;
+  font-weight: 400;
+  font-family: var(--font-three);
+}

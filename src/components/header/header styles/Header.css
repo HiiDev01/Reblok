@@ -1,0 +1,9 @@
+.header{
+  width: 100%;
+  height: auto;
+  background-color: var(--primary);
+  background-image: linear-gradient(to top, rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('/house.png');
+  background-position:  center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

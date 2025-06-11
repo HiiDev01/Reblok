@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --primary: #fff;
+  --secondary: #f5f5f5; 
+  --font-two: "Manrope", sans-serif;
+  --font-one:  "Urbanist", sans-serif;
+  --font-three: "Inter", sans-serif;
+  --main: #006aff;
+  --black: #222222;
+  --day-black: #333333;
+  --light-black: #6A6A6A;
+  --light: #f0f0f092;
+  --theme_shadow: rgba(0, 0, 0, 0.04);
+  --background: #f6f2f1;
+  --border: #cfcfcf92;
+  --light-main: #006aff2d;
+}

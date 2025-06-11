@@ -1,0 +1,97 @@
+.homedetails{
+  padding: 5% 5% 2% 5%;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1.5fr 1fr;
+}
+.details{
+  background-color: none;
+  
+}
+.title_con{
+  width: max-content;
+  padding: 20px 30px;
+  margin: 0px 0px 10px 0px;
+}
+
+.title_con h2{
+  font-size: 1.5rem;
+  font-family: var(--font-three);
+  font-weight: 700;
+  color: var(--secondary);
+}
+.title_con h2 span{
+  position: relative;
+}
+.firstSpan::before{
+  position: absolute;
+  content: '';
+  top: 40%;
+  left: -15%;
+  width: 10%;
+  height: 2px;
+  background-color: var(--secondary);
+}
+.firstSpan::after{
+  position: absolute;
+  content: '';
+  top: 60%;
+  left: -25%;
+  width: 20%;
+  height: 2px;
+  background-color: var(--main);
+}
+.seconSpan::before{
+  position: absolute;
+  content: '';
+  top: 40%;
+  right: -25.5%;
+  width: 15%;
+  height: 2px;
+  background-color: var(--secondary);
+}
+.seconSpan::after{
+  position: absolute;
+  content: '';
+  top: 60%;
+  right: -39.5%;
+  width: 30%;
+  height: 2px;
+  background-color: var(--main);
+}
+.details h1{
+  font-size: 3.3rem;
+  font-family: var(--font-three);
+  font-weight: 700;
+  color: var(--secondary);
+  margin: 0px 0px 20px 0px;
+}
+.details h1 span{
+  color: var(--main);
+}
+.homereview{
+  width: 90%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: left;
+  gap: 25px;
+}
+.homereview h2{
+  font-size: 3rem;
+  color: var(--day-black);
+  font-family: var(--font-one);
+  font-weight: bold;
+  margin: 0px 0px 5px 0px;
+}
+.homereview P{
+  font-size: 1.2rem;
+  color: var(--light-black);
+  font-family: var(--font-two);
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.map{
+  border: 1px solid red;
+}

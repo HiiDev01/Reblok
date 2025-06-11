@@ -1,0 +1,109 @@
+.signIn{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;
+}
+.signInFormCon{
+  width: 40%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signInformWrap{
+  width: 80%;
+}
+.signInformWrap .logo{
+  display: flex;
+  align-items: center;
+  gap: 0px;
+  margin: 0px 0px 30px 0px;
+}
+.signInformWrap .logo span img{
+  width: 120px;
+  height: 60px;
+  object-fit: cover;
+}
+.signInformWrap .logo h4{
+  font-family: var(--font-three);
+  font-weight: bolder;
+  color: var(--day-black);
+  text-transform: capitalize;
+}
+.signInformWrap h2{
+  text-align: center;
+  font-family: var(--font-three);
+  color: var(--day-black);
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 2rem;
+  margin: 0px 0px 30px 0px;
+}
+
+.signInForm{
+  width: 100%;
+  margin: 0px 0px 20px 0px;
+}
+.signInForm > div{
+  margin: 0px 0px 25px 0px;
+}
+.signInForm > div label{
+  display: block;
+  font-family: var(--font-three);
+  color: var(--light-black);
+  font-weight: 500;
+  font-size: 1rem;
+  text-transform: capitalize;
+  margin: 0px 0px 10px 0px;
+}
+.signInForm > div input{
+  width: 100%;
+  padding: 15px 10px;
+  font-family: var(--font-three);
+  color: var(--day-black);
+  font-weight: 500;
+  font-size: 0.9rem;
+  border: 1px solid var(--border);
+  border-radius: 2px;
+}
+.signInForm > div input:focus{
+  outline: 1px solid var(--main);
+}
+.signInForm > div input::placeholder{
+  color: var(--light-black);
+  font-weight: 400;
+  font-family: var(--font-one);
+  font-size: 1rem;
+}
+.signInForm button{
+  width: 100%;
+  background-color: var(--main);
+  color: var(--primary);
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.signInformWrap p{
+  font-family: var(--font-one);
+  color: var(--day-black);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.signInformWrap p a{
+  color: var(--main);
+  font-size: 1rem;
+  cursor: pointer;
+}
+.imgCon{
+  width: 60%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('/signInImg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

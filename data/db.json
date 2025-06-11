@@ -1,0 +1,915 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "title": "4 Bedroom Semi Detached Duplex in Ajah",
+      "type": "sell",
+      "types": "Duplex",
+      "status": "For Sale",
+      "price": 90000000,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "area": 2000,
+      "location": {
+        "address": "Ajah",
+        "city": "Lagos",
+        "state": "Lagos",
+        "zipCode": "",
+        "latitude": 6.4698,
+        "longitude": 3.5853
+      },
+      "description": "A luxurious 4-bedroom semi-detached duplex in the serene area of Ajah, Lagos. This modern property features high-quality finishes, a fitted kitchen, and ample space, ideal for families seeking comfort and style.",
+      "features": ["Fitted Kitchen with accessories", "Modern Day POP Ceiling", "Detailed finishing", "Wardrobes", "Luxury Finishing", "Water heater", "Heat extractor", "BQ"],
+      "images": [
+        "/reblokImage/1 (1)-min.jpg",
+        "/reblokImage/1 (2)-min.jpg",
+        "/reblokImage/1 (3)-min.jpg",
+        "/reblokImage/1 (4)-min.jpg",
+        "/reblokImage/1 (5)-min.jpg"
+      ],
+      "agentId": 1,
+      "createdAt": "2025-06-01T10:00:00Z",
+      "updatedAt": "2025-06-05T12:00:00Z"
+    },
+    {
+      "id": 2,
+      "title": "4 Bedroom Semi Detached Duplex in Ajah",
+      "type": "sell",
+      "types": "Duplex",
+      "status": "For Sale",
+      "price": 120000000,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "area": 2000,
+      "location": {
+        "address": "Ajah",
+        "city": "Lagos",
+        "state": "Lagos",
+        "zipCode": "",
+        "latitude": 6.4698,
+        "longitude": 3.5853
+      },
+      "description": "This elegant 4-bedroom semi-detached duplex in Ajah, Lagos, offers modern amenities and detailed finishing, perfect for those seeking a blend of luxury and convenience in a prime location.",
+      "features": ["Fitted Kitchen with accessories", "Modern Day POP Ceiling", "Detailed finishing", "Wardrobes", "Luxury Finishing", "Water heater", "Heat extractor"],
+      "images": [
+        "/reblokImage/2 (1)-min.jpg",
+        "/reblokImage/2 (2)-min.jpg",
+        "/reblokImage/2 (3)-min.jpg",
+        "/reblokImage/2 (4)-min.jpg",
+        "/reblokImage/2 (5)-min.jpg"
+      ],
+      "agentId": 1,
+      "createdAt": "2025-06-01T10:00:00Z",
+      "updatedAt": "2025-06-05T12:00:00Z"
+    },
+    {
+      "id": 3,
+      "title": "2 Bedroom Apartment in Lekki Phase 1",
+      "type": "sell",
+      "types": "Apartment",
+      "status": "For Sale",
+      "price": 280000000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area": 1200,
+      "location": {
+        "address": "Lekki Phase 1",
+        "city": "Lagos",
+        "state": "Lagos",
+        "zipCode": "",
+        "latitude": 6.4433,
+        "longitude": 3.4580
+      },
+      "description": "A stunning 2-bedroom apartment in the prestigious Lekki Phase 1, featuring a water view, swimming pool, and gym, offering a luxurious lifestyle in a vibrant neighborhood.",
+      "features": ["Water View", "Fitted Kitchen with accessories", "Modern Day POP Ceiling", "Detailed finishing", "Wardrobes", "Automated Light", "Water heater", "Heat extractor", "Ample parking space", "Swimming Pool", "Gym", "BQ"],
+      "images": [
+        "/reblokImage/3 (1)-min.jpg",
+        "/reblokImage/3 (2)-min.jpg",
+        "/reblokImage/3 (3)-min.jpg",
+        "/reblokImage/3 (4)-min.jpg",
+        "/reblokImage/3 (5)-min.jpg"
+      ],
+      "agentId": 1,
+      "createdAt": "2025-06-01T10:00:00Z",
+      "updatedAt": "2025-06-05T12:00:00Z"
+    },
+    {
+      "id": 4,
+      "title": "4 Bedroom Fully Detached Duplex in Orchid Lekki",
+      "type": "sell",
+      "types": "Duplex",
+      "status": "For Sale",
+      "price": 140000000,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "area": 2200,
+      "location": {
+        "address": "Orchid Lekki",
+        "city": "Lagos",
+        "state": "Lagos",
+        "zipCode": "",
+        "latitude": 6.4433,
+        "longitude": 3.4580
+      },
+      "description": "This spacious 4-bedroom fully detached duplex in Orchid Lekki offers modern design with luxury finishing, perfect for families seeking a serene yet sophisticated living space.",
+      "features": ["Fitted Kitchen with accessories", "Modern Day POP Ceiling", "Detailed finishing", "Wardrobes", "Luxury Finishing", "Water heater", "Heat extractor"],
+      "images": [
+        "/reblokImage/4 (1)-min.jpg",
+        "/reblokImage/4 (2)-min.jpg",
+        "/reblokImage/4 (3)-min.jpg",
+        "/reblokImage/4 (4)-min.jpg",
+        "/reblokImage/4 (5)-min.jpg"
+      ],
+      "agentId": 1,
+      "createdAt": "2025-06-01T10:00:00Z",
+      "updatedAt": "2025-06-05T12:00:00Z"
+    },
+    {
+      "id": 5,
+      "title": "4 Bedroom Semi Detached Duplex in Orchid Lekki",
+      "type": "sell",
+      "types": "Duplex",
+      "status": "For Sale",
+      "price": 150000000,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "area": 2000,
+      "location": {
+        "address": "Orchid Lekki",
+        "city": "Lagos",
+        "state": "Lagos",
+        "zipCode": "",
+        "latitude": 6.4433,
+        "longitude": 3.4580
+      },
+      "description": "A beautifully designed 4-bedroom semi-detached duplex in Orchid Lekki, featuring a boy’s quarters and modern amenities for comfortable living in a secure estate.",
+      "features": ["Fitted Kitchen with accessories", "Modern Day POP Ceiling", "Detailed finishing", "Wardrobes", "Luxury Finishing", "Water heater", "Heat extractor", "BQ"],
+      "images": [
+        "/reblokImage/5 (1)-min.jpg",
+        "/reblokImage/5 (2)-min.jpg",
+        "/reblokImage/5 (3)-min.jpg",
+        "/reblokImage/5 (4)-min.jpg",
+        "/reblokImage/5 (5)-min.jpg"
+      ],
+      "agentId": 1,
+      "createdAt": "2025-06-01T10:00:00Z",
+      "updatedAt": "2025-06-05T12:00:00Z"
+    },
+    {
+      "id": 6,
+      "title": "4 Bedroom Semi Detached Duplex with Jacuzzi in Ajah",
+      "type": "sell",
+      "types": "Duplex",
+      "status": "For Sale",
+      "price": 140000000,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "area": 2000,
+      "location": {
+        "address": "Ajah",
+        "city": "Lagos",
+        "state": "Lagos",
+        "zipCode": "",
+        "latitude": 6.4698,
+        "longitude": 3.5853
+      },
+      "description": "This luxurious 4-bedroom semi-detached duplex in Ajah, Lagos, offers a jacuzzi and boy’s quarters, combining elegance and comfort in a prime location.",
+      "features": ["Fitted Kitchen with accessories", "Modern Day POP Ceiling", "Detailed finishing", "Wardrobes", "Water heater", "Heat extractor", "Jacuzzi", "BQ"],
+      "images": [
+        "/reblokImage/6 (1)-min.jpg",
+        "/reblokImage/6 (2)-min.jpg",
+        "/reblokImage/6 (3)-min.jpg",
+        "/reblokImage/6 (4)-min.jpg",
+        "/reblokImage/6 (5)-min.jpg"
+      ],
+      "agentId": 1,
+      "createdAt": "2025-06-01T10:00:00Z",
+      "updatedAt": "2025-06-05T12:00:00Z"
+    },
+    {
+      "id": 7,
+      "title": "4 Bedroom Terrace Duplex in VGC Lekki",
+      "type": "sell",
+      "types": "Duplex",
+      "status": "For Sale",
+      "price": 92500000,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "area": 1800,
+      "location": {
+        "address": "VGC Lekki",
+        "city": "Lagos",
+        "state": "Lagos",
+        "zipCode": "",
+        "latitude": 6.4433,
+        "longitude": 3.4580
+      },
+      "description": "A stylish 4-bedroom terrace duplex in VGC Lekki, offering modern amenities and a prime location, perfect for families or investors.",
+      "features": ["Fitted Kitchen with accessories", "Modern Day POP Ceiling", "Detailed finishing", "Wardrobes", "Water heater", "Heat extractor"],
+      "images": [
+        "/reblokImage/7 (1)-min.jpg",
+        "/reblokImage/7 (2)-min.jpg",
+        "/reblokImage/7 (3)-min.jpg",
+        "/reblokImage/7 (4)-min.jpg",
+        "/reblokImage/7 (5)-min.jpg"
+      ],
+      "agentId": 1,
+      "createdAt": "2025-06-01T10:00:00Z",
+      "updatedAt": "2025-06-05T12:00:00Z"
+    },
+    {
+      "id": 8,
+      "title": "6 Bedroom Fully Detached Duplex in Osapa London Lekki",
+      "type": "sell",
+      "types": "Duplex",
+      "status": "For Sale",
+      "price": 650000000,
+      "bedrooms": 6,
+      "bathrooms": 6,
+      "area": 3500,
+      "location": {
+        "address": "Osapa London Lekki",
+        "city": "Lagos",
+        "state": "Lagos",
+        "zipCode": "",
+        "latitude": 6.4433,
+        "longitude": 3.4580
+      },
+      "description": "A grand 6-bedroom fully detached duplex in Osapa London Lekki, featuring a swimming pool, CCTV, and automated lights, perfect for luxury living.",
+      "features": ["Fitted Kitchen with accessories", "Modern Day POP Ceiling", "Detailed finishing", "Wardrobes", "Luxury Finishing", "Jacuzzi", "CCTV", "Automated Light", "Water heater", "Heat extractor", "Ample parking space", "BQ", "Swimming pool"],
+      "images": [
+        "/reblokImage/8 (1)-min.jpg",
+        "/reblokImage/8 (2)-min.jpg",
+        "/reblokImage/8 (3)-min.jpg",
+        "/reblokImage/8 (4)-min.jpg",
+        "/reblokImage/8 (5)-min.jpg"
+      ],
+      "agentId": 1,
+      "createdAt": "2025-06-01T10:00:00Z",
+      "updatedAt": "2025-06-05T12:00:00Z"
+    },
+    {
+      "id": 9,
+      "title": "Contemporary 5 Bedroom Fully Detached Duplex in Ikota Lekki",
+      "type": "sell",
+      "types": "Duplex",
+      "status": "For Sale",
+      "price": 420000000,
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "area": 3000,
+      "location": {
+        "address": "Ikota Lekki County Home",
+        "city": "Lagos",
+        "state": "Lagos",
+        "zipCode": "",
+        "latitude": 6.4433,
+        "longitude": 3.4580
+      },
+      "description": "This contemporary 5-bedroom fully detached duplex in Ikota Lekki features two fitted kitchens, a cinema room, and a rooftop terrace, offering unparalleled luxury.",
+      "features": ["2 Fitted Kitchen with accessories", "Modern Day POP Ceiling", "Detailed finishing", "Wardrobes", "Luxury Finishing", "Water heater", "Heat extractor", "BQ", "Swimming pool", "Rooftop Terrace", "Cinema Room"],
+      "images": [
+        "/reblokImage/9 (1)-min.jpg",
+        "/reblokImage/9 (2)-min.jpg",
+        "/reblokImage/9 (3)-min.jpg",
+        "/reblokImage/9 (4)-min.jpg",
+        "/reblokImage/9 (5)-min.jpg"
+      ],
+      "agentId": 1,
+      "createdAt": "2025-06-01T10:00:00Z",
+      "updatedAt": "2025-06-05T12:00:00Z"
+    },
+    {
+      "id": 10,
+      "title": "Contemporary 5 Bedroom Fully Detached Duplex in Osapa London Lekki",
+      "type": "sell",
+      "types": "Duplex",
+      "status": "For Sale",
+      "price": 700000000,
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "area": 3000,
+      "location": {
+        "address": "Osapa London Lekki",
+        "city": "Lagos",
+        "state": "Lagos",
+        "zipCode": "",
+        "latitude": 6.4433,
+        "longitude": 3.4580
+      },
+      "description": "A modern 5-bedroom fully detached duplex in Osapa London Lekki, complete with a swimming pool and rooftop terrace, ideal for upscale living.",
+      "features": ["Fitted Kitchen with accessories", "Modern Day POP Ceiling", "Detailed finishing", "Wardrobes", "Luxury Finishing", "Water heater", "Heat extractor", "BQ", "Swimming pool", "Rooftop Terrace"],
+      "images": [
+        "/reblokImage/10 (1)-min.jpg",
+        "/reblokImage/10 (2)-min.jpg",
+        "/reblokImage/10 (3)-min.jpg",
+        "/reblokImage/10 (4)-min.jpg",
+        "/reblokImage/10 (5)-min.jpg"
+      ],
+      "agentId": 1,
+      "createdAt": "2025-06-01T10:00:00Z",
+      "updatedAt": "2025-06-05T12:00:00Z"
+    },
+    {
+      "id": 11,
+      "title": "Contemporary 5 Bedroom Fully Detached Duplex in Ikoyi",
+      "type": "sell",
+      "types": "Duplex",
+      "status": "For Sale",
+      "price": 1400000000,
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "area": 3200,
+      "location": {
+        "address": "Ikoyi",
+        "city": "Lagos",
+        "state": "Lagos",
+        "zipCode": "",
+        "latitude": 6.4500,
+        "longitude": 3.4000
+      },
+      "description": "An exquisite 5-bedroom fully detached duplex in the prestigious Ikoyi area, featuring a cinema room and swimming pool for an elite lifestyle.",
+      "features": ["Fitted Kitchen with accessories", "Modern Day POP Ceiling", "Detailed finishing", "Wardrobes", "Luxury Finishing", "Water heater", "Heat extractor", "BQ", "Swimming pool", "Cinema room"],
+      "images": [
+        "/reblokImage/11 (1)-min.jpg",
+        "/reblokImage/11 (2)-min.jpg",
+        "/reblokImage/11 (3)-min.jpg",
+        "/reblokImage/11 (4)-min.jpg",
+        "/reblokImage/11 (5)-min.jpg"
+      ],
+      "agentId": 1,
+      "createdAt": "2025-06-01T10:00:00Z",
+      "updatedAt": "2025-06-05T12:00:00Z"
+    },
+    {
+      "id": 12,
+      "title": "Luxury 5 Bedroom Fully Detached Duplex in Ajah",
+      "type": "sell",
+      "types": "Duplex",
+      "status": "For Sale",
+      "price": 260000000,
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "area": 3000,
+      "location": {
+        "address": "Ajah",
+        "city": "Lagos",
+        "state": "Lagos",
+        "zipCode": "",
+        "latitude": 6.4698,
+        "longitude": 3.5853
+      },
+      "description": "A luxurious 5-bedroom fully detached duplex in Ajah, Lagos, with a swimming pool and ample parking space, designed for comfort and elegance.",
+      "features": ["Fitted Kitchen with accessories", "Modern Day POP Ceiling", "Detailed finishing", "Wardrobes", "Luxury Finishing", "Water heater", "Heat extractor", "Ample parking space", "BQ", "Swimming pool"],
+      "images": [
+        "/reblokImage/12 (1)-min.jpg",
+        "/reblokImage/12 (2)-min.jpg",
+        "/reblokImage/12 (3)-min.jpg",
+        "/reblokImage/12 (4)-min.jpg",
+        "/reblokImage/12 (5)-min.jpg"
+      ],
+      "agentId": 1,
+      "createdAt": "2025-06-01T10:00:00Z",
+      "updatedAt": "2025-06-05T12:00:00Z"
+    },
+    {
+      "id": 13,
+      "title": "Luxury 5 Bedroom Fully Detached Duplex in Ajah",
+      "type": "sell",
+      "types": "Duplex",
+      "status": "For Sale",
+      "price": 280000000,
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "area": 3000,
+      "location": {
+        "address": "Ajah",
+        "city": "Lagos",
+        "state": "Lagos",
+        "zipCode": "",
+        "latitude": 6.4698,
+        "longitude": 3.5853
+      },
+      "description": "This 5-bedroom fully detached duplex in Ajah, Lagos, offers luxury living with a swimming pool and modern amenities in a secure estate.",
+      "features": ["Fitted Kitchen with accessories", "Modern Day POP Ceiling", "Detailed finishing", "Wardrobes", "Luxury Finishing", "Water heater", "Heat extractor", "Ample parking space", "BQ", "Swimming pool"],
+      "images": [
+        "/reblokImage/13 (1)-min.jpg",
+        "/reblokImage/13 (2)-min.jpg",
+        "/reblokImage/13 (3)-min.jpg",
+        "/reblokImage/13 (4)-min.jpg",
+        "/reblokImage/13 (5)-min.jpg"
+      ],
+      "agentId": 1,
+      "createdAt": "2025-06-01T10:00:00Z",
+      "updatedAt": "2025-06-05T12:00:00Z"
+    },
+    {
+      "id": 14,
+      "title": "Luxury 5 Bedroom Fully Detached Duplex in Chevron Lekki",
+      "type": "sell",
+      "types": "Duplex",
+      "status": "For Sale",
+      "price": 400000000,
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "area": 3000,
+      "location": {
+        "address": "Chevron Lekki",
+        "city": "Lagos",
+        "state": "Lagos",
+        "zipCode": "",
+        "latitude": 6.4433,
+        "longitude": 3.4580
+      },
+      "description": "A luxurious 5-bedroom fully detached duplex in Chevron Lekki, featuring a cinema room and ample parking, ideal for a sophisticated lifestyle.",
+      "features": ["Fitted Kitchen with accessories", "Modern Day POP Ceiling", "Detailed finishing", "Wardrobes", "Luxury Finishing", "Water heater", "Heat extractor", "Ample parking space", "BQ", "Cinema"],
+      "images": [
+        "/reblokImage/14 (1)-min.jpg",
+        "/reblokImage/14 (2)-min.jpg",
+        "/reblokImage/14 (3)-min.jpg",
+        "/reblokImage/14 (4)-min.jpg",
+        "/reblokImage/14 (5)-min.jpg"
+      ],
+      "agentId": 1,
+      "createdAt": "2025-06-01T10:00:00Z",
+      "updatedAt": "2025-06-05T12:00:00Z"
+    },
+    {
+      "id": 15,
+      "title": "Luxury 5 Bedroom Fully Detached Duplex in Ikate Lekki",
+      "type": "sell",
+      "types": "Duplex",
+      "status": "For Sale",
+      "price": 550000000,
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "area": 3000,
+      "location": {
+        "address": "Ikate Lekki",
+        "city": "Lagos",
+        "state": "Lagos",
+        "zipCode": "",
+        "latitude": 6.4433,
+        "longitude": 3.4580
+      },
+      "description": "This stunning 5-bedroom fully detached duplex in Ikate Lekki offers a swimming pool and modern amenities, perfect for luxury living in a prime location.",
+      "features": ["Fitted Kitchen with accessories", "Modern Day POP Ceiling", "Detailed finishing", "Wardrobes", "Luxury Finishing", "Water heater", "Heat extractor", "Ample parking space", "BQ", "Swimming pool"],
+      "images": [
+        "/reblokImage/15 (1)-min.jpg",
+        "/reblokImage/15 (2)-min.jpg",
+        "/reblokImage/15 (3)-min.jpg",
+        "/reblokImage/15 (4)-min.jpg",
+        "/reblokImage/15 (5)-min.jpg"
+      ],
+      "agentId": 1,
+      "createdAt": "2025-06-01T10:00:00Z",
+      "updatedAt": "2025-06-05T12:00:00Z"
+    },
+    {
+      "id": 16,
+      "title": "Massive 5 Bedroom Fully Detached Home in Osapa Lekki",
+      "type": "sell",
+      "types": "Duplex",
+      "status": "For Sale",
+      "price": 450000000,
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "area": 3200,
+      "location": {
+        "address": "Osapa Lekki",
+        "city": "Lagos",
+        "state": "Lagos",
+        "zipCode": "",
+        "latitude": 6.4433,
+        "longitude": 3.4580
+      },
+      "description": "A massive 5-bedroom fully detached home in Osapa Lekki, featuring a rooftop terrace, swimming pool, and CCTV, designed for luxury and security.",
+      "features": ["Brand New", "Luxury", "Rooftop Terrace", "All Rooms Ensuite", "Fully Fitted Kitchen", "Family Lounge", "Spacious Compound", "Bluetooth Speakers", "Pop Ceiling", "Spacious Rooms", "Swimming Pool", "Aesthetic Light Fittings", "Modern Structure", "Automated Gate", "Dining Area", "Spotlights", "Balconies", "Interlocked Streets", "Secure Estate", "Great Neighborhood", "CCTV Camera", "24 Hours security", "Concrete floor", "BQ", "Walk-In Closet", "Water Heater", "Walk-In Showers", "Bath Tub"],
+      "images": [
+        "/reblokImage/16 (1)-min.jpg",
+        "/reblokImage/16 (2)-min.jpg",
+        "/reblokImage/16 (3)-min.jpg",
+        "/reblokImage/16 (4)-min.jpg",
+        "/reblokImage/16 (5)-min.jpg"
+      ],
+      "agentId": 1,
+      "createdAt": "2025-06-01T10:00:00Z",
+      "updatedAt": "2025-06-05T12:00:00Z"
+    },
+    {
+      "id": 17,
+      "title": "Luxury 5 Bedroom Fully Detached Duplex in Ikota Lekki",
+      "type": "sell",
+      "types": "Duplex",
+      "status": "For Sale",
+      "price": 700000000,
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "area": 3000,
+      "location": {
+        "address": "Ikota Lekki County Home",
+        "city": "Lagos",
+        "state": "Lagos",
+        "zipCode": "",
+        "latitude": 6.4433,
+        "longitude": 3.4580
+      },
+      "description": "A luxurious 5-bedroom fully detached duplex in Ikota Lekki, featuring a gym, swimming pool, and cinema room, perfect for an upscale lifestyle.",
+      "features": ["Modern Day POP Ceiling", "Detailed finishing", "Wardrobes", "Luxury Finishing", "Water heater", "Heat extractor", "BQ", "Gym", "Swimming pool", "Cinema Room"],
+      "images": [
+        "/reblokImage/17 (1)-min.jpg",
+        "/reblokImage/17 (2)-min.jpg",
+        "/reblokImage/17 (3)-min.jpg",
+        "/reblokImage/17 (4)-min.jpg",
+        "/reblokImage/17 (5)-min.jpg"
+      ],
+      "agentId": 1,
+      "createdAt": "2025-06-01T10:00:00Z",
+      "updatedAt": "2025-06-05T12:00:00Z"
+    },
+    {
+      "id": 18,
+      "title": "5 Bedroom Fully Detached Duplex in Ajah Lekki",
+      "type": "sell",
+      "types": "Duplex",
+      "status": "For Sale",
+      "price": 230000000,
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "area": 3000,
+      "location": {
+        "address": "Ajah Lekki",
+        "city": "Lagos",
+        "state": "Lagos",
+        "zipCode": "",
+        "latitude": 6.4698,
+        "longitude": 3.5853
+      },
+      "description": "A modern 5-bedroom fully detached duplex in Ajah Lekki, featuring CCTV, a video bell, and a fully automated system, offering a secure and serene living experience.",
+      "features": ["CCTV", "Brand new", "Video Bell", "Clean water", "Secured estate", "Good Compound space", "Fully Fitted Kitchen", "Serenity", "Water Heaters", "Pop Ceiling", "Fully automated"],
+      "images": [
+        "/reblokImage/18 (1)-min.jpg",
+        "/reblokImage/18 (2)-min.jpg",
+        "/reblokImage/18 (3)-min.jpg",
+        "/reblokImage/18 (4)-min.jpg",
+        "/reblokImage/18 (5)-min.jpg"
+      ],
+      "agentId": 1,
+      "createdAt": "2025-06-01T10:00:00Z",
+      "updatedAt": "2025-06-05T12:00:00Z"
+    },
+    {
+      "id": 19,
+      "title": "5 Bedroom Fully Detached Duplex in Osapa London Lekki",
+      "type": "sell",
+      "types": "Duplex",
+      "status": "For Sale",
+      "price": 700000000,
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "area": 3000,
+      "location": {
+        "address": "Osapa London Lekki",
+        "city": "Lagos",
+        "state": "Lagos",
+        "zipCode": "",
+        "latitude": 6.4433,
+        "longitude": 3.4580
+      },
+      "description": "This 5-bedroom fully detached duplex in Osapa London Lekki offers a jacuzzi, rooftop terrace, and swimming pool, perfect for luxurious family living.",
+      "features": ["Fitted Kitchen with accessories", "Modern Day POP Ceiling", "Detailed finishing", "Wardrobes", "Water heater", "Heat extractor", "Jacuzzi", "Rooftop terrace", "BQ", "Swimming pool"],
+      "images": [
+        "/reblokImage/19 (1)-min.jpg",
+        "/reblokImage/19 (2)-min.jpg",
+        "/reblokImage/19 (3)-min.jpg",
+        "/reblokImage/19 (4)-min.jpg",
+        "/reblokImage/19 (5)-min.jpg"
+      ],
+      "agentId": 1,
+      "createdAt": "2025-06-01T10:00:00Z",
+      "updatedAt": "2025-06-05T12:00:00Z"
+    },
+    {
+      "id": 20,
+      "title": "Contemporary 5 Bedroom Fully Detached Duplex in Osapa London Lekki",
+      "type": "sell",
+      "types": "Duplex",
+      "status": "For Sale",
+      "price": 550000000,
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "area": 3000,
+      "location": {
+        "address": "Osapa London Lekki",
+        "city": "Lagos",
+        "state": "Lagos",
+        "zipCode": "",
+        "latitude": 6.4433,
+        "longitude": 3.4580
+      },
+      "description": "A contemporary 5-bedroom fully detached duplex in Osapa London Lekki, featuring a rooftop terrace and swimming pool, designed for modern luxury living.",
+      "features": ["Fitted Kitchen with accessories", "Modern Day POP Ceiling", "Detailed finishing", "Wardrobes", "Luxury Finishing", "Water heater", "Heat extractor", "BQ", "Swimming pool", "Rooftop Terrace"],
+      "images": [
+        "/reblokImage/21 (1)-min.jpg",
+        "/reblokImage/21 (2)-min.jpg",
+        "/reblokImage/21 (3)-min.jpg",
+        "/reblokImage/21 (4)-min.jpg",
+        "/reblokImage/21 (5)-min.jpg"
+      ],
+      "agentId": 1,
+      "createdAt": "2025-06-01T10:00:00Z",
+      "updatedAt": "2025-06-05T12:00:00Z"
+    },
+    {
+      "id": 21,
+      "title": "4 Bedroom Semi Detached Duplex in Ajah",
+      "type": "rent",
+      "types": "Duplex",
+      "status": "For Rent",
+      "price": 3500000,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "area": 2000,
+      "location": {
+        "address": "Ajah",
+        "city": "Lagos",
+        "state": "Lagos",
+        "zipCode": "",
+        "latitude": 6.4698,
+        "longitude": 3.5853
+      },
+      "description": "This elegant 4-bedroom semi-detached duplex in Ajah offers a serene environment, premium finishing, and ample outdoor space. It includes a fitted kitchen and ensuite rooms, perfect for families seeking comfort in a well-secured estate.",
+      "features": ["Fitted Kitchen", "POP Ceiling", "Wardrobes", "Water heater", "Heat extractor", "Security Gate"],
+      "images": [
+        "/reblokImage/1 (1)-min.jpg",
+        "/reblokImage/1 (2)-min.jpg",
+        "/reblokImage/1 (3)-min.jpg"
+      ],
+      "agentId": 1,
+      "createdAt": "2025-06-01T10:00:00Z",
+      "updatedAt": "2025-06-05T12:00:00Z"
+    },
+    {
+      "id": 22,
+      "title": "3 Bedroom Apartment in Lekki Phase 1",
+      "type": "rent",
+      "types": "Apartment",
+      "status": "For Rent",
+      "price": 4200000,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area": 1600,
+      "location": {
+        "address": "Lekki Phase 1",
+        "city": "Lagos",
+        "state": "Lagos",
+        "zipCode": "",
+        "latitude": 6.4426,
+        "longitude": 3.4833
+      },
+      "description": "Spacious and modern 3-bedroom apartment located in the prestigious Lekki Phase 1. Comes with ensuite rooms, high-quality tiles, fitted kitchen, and ample parking space in a gated estate.",
+      "features": ["Ample Parking", "Gated Estate", "Water Heater", "POP Ceiling", "Balcony", "Fitted Kitchen"],
+      "images": [
+        "/reblokImage/2 (1)-min.jpg",
+        "/reblokImage/2 (2)-min.jpg",
+        "/reblokImage/2 (3)-min.jpg"
+      ],
+      "agentId": 2,
+      "createdAt": "2025-06-02T10:30:00Z",
+      "updatedAt": "2025-06-05T12:30:00Z"
+    },
+    {
+      "id": 23,
+      "title": "5 Bedroom Fully Detached Duplex in Chevron",
+      "type": "rent",
+      "types": "Detached",
+      "status": "For Rent",
+      "price": 7500000,
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "area": 2500,
+      "location": {
+        "address": "Chevron Drive",
+        "city": "Lagos",
+        "state": "Lagos",
+        "zipCode": "",
+        "latitude": 6.4478,
+        "longitude": 3.5466
+      },
+      "description": "This spacious 5-bedroom fully detached duplex in Chevron Drive comes with high-end luxury finishing, BQ, and ample parking. It's situated in a peaceful and highly secured environment, ideal for executives.",
+      "features": ["Luxury Finishing", "BQ", "Large Parking", "Security Post", "Water Heater", "Fitted Kitchen"],
+      "images": [
+        "/reblokImage/3 (1)-min.jpg",
+        "/reblokImage/3 (2)-min.jpg",
+        "/reblokImage/3 (3)-min.jpg"
+      ],
+      "agentId": 3,
+      "createdAt": "2025-06-03T11:00:00Z",
+      "updatedAt": "2025-06-05T13:00:00Z"
+    },
+    {
+      "id": 24,
+      "title": "2 Bedroom Flat in Ogba",
+      "type": "rent",
+      "types": "Flat",
+      "status": "For Rent",
+      "price": 1800000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area": 1200,
+      "location": {
+        "address": "Ogba",
+        "city": "Lagos",
+        "state": "Lagos",
+        "zipCode": "",
+        "latitude": 6.6328,
+        "longitude": 3.3528
+      },
+      "description": "A neatly finished 2-bedroom flat located in the heart of Ogba. It offers proximity to shopping malls, schools, and public transport. Perfect for small families or working professionals.",
+      "features": ["Wardrobes", "Kitchen Cabinets", "Tiled Floors", "Running Water", "Parking Space"],
+      "images": [
+        "/reblokImage/4 (1)-min.jpg",
+        "/reblokImage/4 (2)-min.jpg"
+      ],
+      "agentId": 4,
+      "createdAt": "2025-06-04T12:00:00Z",
+      "updatedAt": "2025-06-05T13:30:00Z"
+    },
+    {
+      "id": 25,
+      "title": "Mini Flat in Surulere",
+      "type": "rent",
+      "types": "Mini Flat",
+      "status": "For Rent",
+      "price": 950000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "area": 700,
+      "location": {
+        "address": "Aguda, Surulere",
+        "city": "Lagos",
+        "state": "Lagos",
+        "zipCode": "",
+        "latitude": 6.5015,
+        "longitude": 3.3547
+      },
+      "description": "Affordable mini flat in Aguda, Surulere. Suitable for young professionals or couples. Offers a peaceful neighborhood, stable water supply, and a functional kitchen setup.",
+      "features": ["Stable Electricity", "Kitchen Setup", "Secure Compound", "Prepaid Meter", "POP Ceiling"],
+      "images": [
+        "/reblokImage/5 (1)-min.jpg",
+        "/reblokImage/5 (2)-min.jpg"
+      ],
+      "agentId": 5,
+      "createdAt": "2025-06-05T12:30:00Z",
+      "updatedAt": "2025-06-05T14:00:00Z"
+    },
+    {
+      "id": 26,
+      "title": "Luxury Studio Apartment in Victoria Island",
+      "type": "rent",
+      "types": "Studio",
+      "status": "For Rent",
+      "price": 2200000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "area": 800,
+      "location": {
+        "address": "Victoria Island",
+        "city": "Lagos",
+        "state": "Lagos",
+        "zipCode": "",
+        "latitude": 6.4281,
+        "longitude": 3.4216
+      },
+      "description": "This studio apartment is located in the heart of Victoria Island with top-notch amenities, 24/7 security, and water supply. Ideal for expatriates and working professionals.",
+      "features": ["24/7 Power", "Security Surveillance", "Gym", "Fitted Kitchen", "Elevator Access"],
+      "images": [
+        "/reblokImage/6 (1)-min.jpg",
+        "/reblokImage/6 (2)-min.jpg"
+      ],
+      "agentId": 6,
+      "createdAt": "2025-06-06T09:00:00Z",
+      "updatedAt": "2025-06-06T10:00:00Z"
+    },
+    {
+      "id": 27,
+      "title": "3 Bedroom Bungalow in Ikorodu",
+      "type": "rent",
+      "types": "Bungalow",
+      "status": "For Rent",
+      "price": 1200000,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area": 1500,
+      "location": {
+        "address": "Ikorodu",
+        "city": "Lagos",
+        "state": "Lagos",
+        "zipCode": "",
+        "latitude": 6.6194,
+        "longitude": 3.5106
+      },
+      "description": "Well maintained 3-bedroom bungalow in Ikorodu. Spacious compound with borehole water, secure fencing, and a comfortable living environment for families.",
+      "features": ["Borehole Water", "Tiled Compound", "Security Gate", "Fenced", "Kitchen Cabinet"],
+      "images": [
+        "/reblokImage/7 (1)-min.jpg"
+      ],
+      "agentId": 7,
+      "createdAt": "2025-06-06T10:30:00Z",
+      "updatedAt": "2025-06-06T11:30:00Z"
+    },
+    {
+      "id": 28,
+      "title": "2 Bedroom Apartment in Yaba",
+      "type": "rent",
+      "types": "Apartment",
+      "status": "For Rent",
+      "price": 2200000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area": 1300,
+      "location": {
+        "address": "Yaba",
+        "city": "Lagos",
+        "state": "Lagos",
+        "zipCode": "",
+        "latitude": 6.5095,
+        "longitude": 3.3782
+      },
+      "description": "Modern 2-bedroom apartment in Yaba, suitable for students and working-class individuals. Offers a functional kitchen, clean water supply, and proximity to major institutions.",
+      "features": ["Proximity to UNILAG", "Prepaid Meter", "Clean Water Supply", "POP Finishing"],
+      "images": [
+        "/reblokImage/8 (1)-min.jpg"
+      ],
+      "agentId": 8,
+      "createdAt": "2025-06-06T12:00:00Z",
+      "updatedAt": "2025-06-06T13:00:00Z"
+    },
+    {
+      "id": 29,
+      "title": "Luxury 4 Bedroom Terrace in Ikoyi",
+      "type": "rent",
+      "types": "Terrace",
+      "status": "For Rent",
+      "price": 8500000,
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "area": 2100,
+      "location": {
+        "address": "Ikoyi",
+        "city": "Lagos",
+        "state": "Lagos",
+        "zipCode": "",
+        "latitude": 6.4549,
+        "longitude": 3.4516
+      },
+      "description": "A high-end 4-bedroom terrace duplex in Ikoyi. Comes with state-of-the-art facilities, smart security system, and luxurious interior design, perfect for diplomatic families.",
+      "features": ["Smart Security", "BQ", "Swimming Pool", "Underground Parking", "CCTV"],
+      "images": [
+        "/reblokImage/9 (1)-min.jpg"
+      ],
+      "agentId": 9,
+      "createdAt": "2025-06-07T09:00:00Z",
+      "updatedAt": "2025-06-07T10:00:00Z"
+    },
+    {
+      "id": 30,
+      "title": "Self Contain in Egbeda",
+      "type": "rent",
+      "types": "Self Contain",
+      "status": "For Rent",
+      "price": 600000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "area": 500,
+      "location": {
+        "address": "Egbeda",
+        "city": "Lagos",
+        "state": "Lagos",
+        "zipCode": "",
+        "latitude": 6.6038,
+        "longitude": 3.3097
+      },
+      "description": "Affordable self contain in a gated compound in Egbeda. Ideal for singles, NYSC members, or low-budget earners. Accessible to major roads and local markets.",
+      "features": ["Prepaid Meter", "Water Supply", "Secure Fence", "Concrete Flooring"],
+      "images": [
+        "/reblokImage/10 (1)-min.jpg"
+      ],
+      "agentId": 10,
+      "createdAt": "2025-06-07T11:00:00Z",
+      "updatedAt": "2025-06-07T12:00:00Z"
+    }
+  ],
+  "agents": [
+    {
+      "id": 1,
+      "name": "Jane Doe",
+      "email": "jane.doe@realestate.com",
+      "phone": "09058877498",
+      "bio": "Experienced real estate agent specializing in luxury properties in Lagos.",
+      "profilePicture": "https://example.com/images/agent1.jpg",
+      "createdAt": "2025-01-10T08:00:00Z"
+    }
+  ],
+  "inquiries": []
+}
