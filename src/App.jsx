@@ -8,6 +8,7 @@ import SignUp from './pages/SignupChoice';
 import AgentSignup from './pages/AgentSignup';
 import UserSignup from './pages/UserSignup';
 import NotFound from './pages/NotFound';
+import PropertyPage from './pages/PropertyPage';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
           <Route exact path='/signup/agent' element={<AgentSignup/>}></Route>
           <Route exact path='/signup/user' element={<UserSignup/>}></Route>
           <Route exact path='/*' element={<NotFound/>}></Route>
+          <Route exact path='/properties' element={<PropertyPage/>}></Route>
         </Routes>
       </Router>
     </>

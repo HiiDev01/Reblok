@@ -149,21 +149,21 @@ var settings = {
           <Slider {...settings}>
           {rentProperties.map((proper) => (
             <div key={proper.id} className='currentItem'>
-            <p className='propType'>{proper.status}</p>
-            <div className='propImage'>
-              <img src={proper.images[0]} alt={proper.title} />
-            </div>
-            <div className="propbody">
-              <h2>&#x20A6; {proper.price.toLocaleString()}</h2>
-              <div className='propMin'>
-                <p><span><FaBed className='icon'/></span> {proper.bedrooms}</p>
-                <p><span><FaBath className='icon'/></span> {proper.bathrooms}</p>
-                <p>{proper.area.toLocaleString()} sqft</p>
-                <p>{proper.status}</p>
+              <p className='propType'>{proper.status}</p>
+              <div className='propImage'>
+                <img src={proper.images[0]} alt={proper.title} />
               </div>
-              <p className='protitle'>{proper.title} {proper.location.city}</p>
+              <div className="propbody">
+                <h2>&#x20A6; {proper.price.toLocaleString()}</h2>
+                <div className='propMin'>
+                  <p><span><FaBed className='icon'/></span> {proper.bedrooms}</p>
+                  <p><span><FaBath className='icon'/></span> {proper.bathrooms}</p>
+                  <p>{proper.area.toLocaleString()} sqft</p>
+                  <p>{proper.status}</p>
+                </div>
+                <p className='protitle'>{proper.title} {proper.location.city}</p>
+              </div>
             </div>
-          </div>
           ))}
           </Slider>
         </div>
