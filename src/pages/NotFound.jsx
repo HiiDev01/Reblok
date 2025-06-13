@@ -12,7 +12,7 @@ const NotFound = () => {
           justifyContent: 'center',
           width: '100%',
           height: '100vh',
-          backgroundColor: 'var(--light-main)'
+          backgroundColor: 'var(--secondary)'
         }
       }>
       <div className='con' style={
