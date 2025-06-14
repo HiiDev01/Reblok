@@ -1,0 +1,21 @@
+.imgGrid{
+  width: 80%;
+  height: 60vh;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 10px;
+}
+.imgGrid .imgGridItem{
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  border: 1px solid black;
+}
+.imgGridItem:first-child{
+  grid-row: span 2;
+}
+.imgGrid .imgGridItem img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

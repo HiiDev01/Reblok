@@ -8,7 +8,9 @@ import SignUp from './pages/SignupChoice';
 import AgentSignup from './pages/AgentSignup';
 import UserSignup from './pages/UserSignup';
 import NotFound from './pages/NotFound';
+import PropertyDetails from './pages/PropertyDetails';
 import PropertyPage from './pages/PropertyPage';
+import 'leaflet/dist/leaflet.css';
 
 function App() {
 
@@ -25,6 +27,7 @@ function App() {
           <Route exact path='/signup/user' element={<UserSignup/>}></Route>
           <Route exact path='/*' element={<NotFound/>}></Route>
           <Route exact path='/properties' element={<PropertyPage/>}></Route>
+          <Route exact path='/properties/:id' element={<PropertyDetails/>}></Route>
         </Routes>
       </Router>
     </>

@@ -4,11 +4,7 @@ import './PropertyNav.css'
 
 
 
-const PropertyNav = () => {
-  const [location, setLocation] = useState('')
-  const [type, setType] = useState('all')
-  const [houseType, setHouseType] = useState('all')
-  const [bed, setBed] = useState('');
+const PropertyNav = ({filters, setFilters}) => {
   const [showPrice, setShowPrice] = useState(false)
 
   const divRef = useRef(null);
@@ -29,7 +25,9 @@ const PropertyNav = () => {
     }
   }, []);
 
-  const searchQuery = {location,type, houseType,bed}
+  const handleChange = (field, value) => {
+    setFilters(prev => ({ ...prev, [field]: value }));
+  };
 
 
 
@@ -42,23 +40,23 @@ const PropertyNav = () => {
           <input 
             type="text" 
             id="" placeholder='enter your location or area'
-            value={location}
-            onChange={(e)=>setLocation(e.target.value)}
+            value={filters.location}
+            onChange={(e) => handleChange('location', e.target.value)}
             />
         </div>
-        <select value={type} onChange={(e)=>setType(e.target.value)}>
+        <select value={filters.type} onChange={(e) => handleChange('type', e.target.value)}>
           <option value="sell">sell</option>
           <option value="rent">rent</option>
           <option value="all">all</option>
         </select>
-        <select id="" value={houseType} onChange={(e)=>setHouseType(e.target.value)}>
-          <option value="homeType">home type</option>
+        <select id="" value={filters.houseType}  onChange={(e) => handleChange('houseType', e.target.value)}>
+          <option value="all">home type</option>
           <option value="Full Detached">Full Detached</option>
           <option value="Semi Detached">Semi Detached</option>
           <option value="Terrace">Terrace</option>
           <option value="Land">Land</option>
         </select>
-        <select id="" value={bed} onChange={(e)=>setBed(e.target.value)}>
+        <select id="" value={filters.bed} onChange={(e) => handleChange('bed', e.target.value)}>
           <option value="All">beds & bath</option>
           <option value="All">All</option>
           <option value="3">3 bed</option>
