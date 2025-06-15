@@ -18,7 +18,7 @@ L.Marker.prototype.options.icon = DefaultIcon;
 const PropertyPage = () => {
   const [allProperty, setAllProperty] = useState([]);
   const [currentPage, setCurrentPage] = useState(1)
-  const [postPerPage, setPostPerPage] = useState(8)
+  const [postPerPage, setPostPerPage] = useState(4)
   const [filters, setFilters] = useState({
     location: '',
     type: 'all',
