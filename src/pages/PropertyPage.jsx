@@ -69,8 +69,8 @@ const PropertyPage = () => {
         <div className="propertyWrapper">
           <div className='propertyContainer'>
             {currentPost.map((property)=>(
-              <Link to={`/properties/${property.id}`}>
-                <div key={property.id} className='currentItem'>
+              <Link to={`/properties/${property.id}`} key={property.id}>
+                <div className='currentItem'>
                   <p className='propType'>{property.status}</p>
                   <div className='propImage'>
                     <img src={property.images[0]} alt={property.title} />
@@ -115,11 +115,19 @@ const PropertyPage = () => {
                 position={[property.location.latitude, property.location.longitude]}
               >
                 <Popup>
-                  <div>
-                    <strong>{property.title}</strong><br />
-                    ₦{property.price.toLocaleString()}<br />
-                    {property.location.city}
-                  </div>
+                  <a 
+                  href={`/properties/${property.id}`}
+                  style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}>
+                    <div className='mapPopupCon'>
+                      <strong>{property.title}</strong><br />
+                      ₦{property.price.toLocaleString()}<br />
+                      {property.status}<br />
+                      {property.location.city}
+                      <div className='mapPopupImgCon'>
+                        <img src={property.images[0]} alt="image" />
+                      </div>
+                    </div>
+                  </a>
                 </Popup>
               </Marker>
             ))}

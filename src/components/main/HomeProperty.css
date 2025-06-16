@@ -34,7 +34,13 @@
   width: 100%;
   margin: 0px 0px 20px 0px;
 }
+.currentGrid a, .rentGrid a{
+  text-decoration: none;
+  cursor: pointer;
+}
+.currentGrid a:hover,.rentGrid a:hover{
 
+}
 .currentItem{
   min-width: 280px;
   max-width: 300px;

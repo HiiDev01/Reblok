@@ -1,8 +1,17 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import '../pages_styles/SignIn.css'
 import { Link } from 'react-router-dom'
 
 const SignIn = () => {
+  const [user, setUser] = useState({userEmail: '', password: ''})
+
+  const handleChange =()=>{
+    setUser({...user, [e.target.name]: e.target.value})
+  }
+
+  const handleSubmit = ()=>{
+    
+  }
   return (
     <div className='signIn'>
       <div className='signInFormCon'>

@@ -15,7 +15,7 @@ const services = [
     body: "Discover your perfect home with immersive photos and the largest selection of listings—including exclusive options you won’t find anywhere else.", 
     image: undrawImg1,
     id: 1,
-    link: "/",
+    link: "/properties",
     title: "buy now"
   },
   {
@@ -23,7 +23,7 @@ const services = [
     body: "No matter how you choose to sell your home, we're here to guide you on every step of the way toward a successful and secure sale by expertise.", 
     image: undrawImg2,
     id: 2,
-    link: "/",
+    link: "/properties",
     title: "sell home"
   },
   {
@@ -31,7 +31,7 @@ const services = [
     body: "We're building a seamless online experience from browsing the largest rental network, to applying with ease, to securely paying rent all in one place.", 
     image: undrawImg3,
     id: 3,
-    link: "/",
+    link: "/properties",
     title: "rent home"
   },
 ]
@@ -177,7 +177,7 @@ var settings = {
             <div className='serviceImgCon'><img src={service.image} alt={service.head} /></div>
             <h2>{service.head}</h2>
             <p>{service.body}</p>
-            <Link>{service.title}</Link>
+            <Link to='/properties'>{service.title}</Link>
           </div>
         ))}
       </div>

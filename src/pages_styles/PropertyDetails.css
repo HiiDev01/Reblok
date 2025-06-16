@@ -1,18 +1,27 @@
 .proDetCon{
   width: 100%;
   height: 100vh;
-}
-.proDetWrap{
   display: flex;
-  align-items: flex-start;
+  flex-direction: column;
+  position: relative;
+  user-select: none;
+}
+
+.proDetWrap{
+  flex: 1;
+  display: flex;
+  height: calc(100vh - /* Navbar height if fixed */ 0px);
+  overflow: hidden;
 }
 .detWrap{
   width: 70%;
-  height: auto;
+  height: 100%;
+  overflow-y: auto;
 }
 .contactAgentCon{
   width: 30%;
-  height: auto;
+  height: 100%;
+  overflow-y: auto;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -94,7 +103,7 @@
   margin: 0px 0px 5px 0px;
 }
 .imgGridItem:nth-child(2){
-
+  
 }
 .imgGrid .imgGridItem img{
   width: 100%;
@@ -153,4 +162,82 @@
   font-family: var(--font-three);
   font-weight: 500;
   color: var(--day-black);
+}
+
+.popupform{
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(   --overlay);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.popupform > div{
+  background-color: var(--primary);
+  width: 30%;
+  height: auto;
+  min-height: 100px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.popupform > div h2{
+  font-family: var(--font-three);
+  font-weight: bold;
+  text-transform: capitalize;
+  color: var(--black);
+  font-size: 1.5rem;
+  margin: 0px 0px 30px 0px;
+  width: 100%;
+  text-align: center;
+}
+.contactForm{
+  width: 100%;
+}
+.contactForm label{
+  display: block;
+  align-items: center;
+  font-size: 1rem;
+  color: var(--day-black);
+  font-weight: 600;
+  font-family: var(--font-one);
+  margin: 0px 0px 6px 0px;
+  text-transform: capitalize;
+}
+.contactForm input{
+  width: 100%;
+  padding: 12px;
+  margin: 0px 0px 12px 0px;
+  display: block;
+  border: 1px solid var(--border);
+}
+.contactForm input:focus{
+  outline: 1px solid var(--main);
+}
+.contactForm textarea{
+  display: block;
+  width: 100%;
+  margin: 0px 0px 20px 0px;
+  border: 1px solid var(--border);
+  outline: none;
+  resize: none;
+}
+.contactForm button{
+  width: 100%;
+  border: none;
+  background-color: var(--main);
+  color: var(--primary);
+  font-weight: 500;
+  font-family: var(--font-three);
+  text-transform: capitalize;
+  padding: 14px;
+  cursor: pointer;
+    transition:  opacity 0.3s ease;
+}
+.contactForm button:hover{
+  opacity: 0.9;
+  transition:  opacity 0.3s ease;
 }
