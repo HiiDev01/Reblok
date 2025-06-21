@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 
 const SearchBar = () => {
   const navigation = useNavigate()
-  const [typeBtn, setTypeBtn] = useState('buy')
+  const [typeBtn, setTypeBtn] = useState('sell')
   const [location, setLocation] = useState('');
   const [propertyType, setPropertyType] = useState('All');
   const [propertyBed, setPropertyBed] = useState('All');
@@ -30,13 +30,13 @@ const SearchBar = () => {
     <div className='searchBar'>
       <div className='tyBtnCon'>
         <button 
-          className={`tyBtn ${typeBtn === 'buy' ? "active" : ""}`}
-          onClick={() => handleChangeTypeBtn("buy")}
+          className={`tyBtn ${typeBtn === 'sell' ? "active" : ""}`}
+          onClick={() => handleChangeTypeBtn("sell")}
           >buy
         </button>
         <button 
-          className={`tyBtn ${typeBtn === 'sell' ? "active" : ""}`}
-          onClick={() => handleChangeTypeBtn('sell')}
+          className={`tyBtn ${typeBtn === 'rent' ? "active" : ""}`}
+          onClick={() => handleChangeTypeBtn('rent')}
         >rent
         </button>
       </div>
@@ -48,7 +48,7 @@ const SearchBar = () => {
               <input 
                 type="text" 
                 id='location' 
-                placeholder='Enter location'
+                placeholder='keywords....'
                 value={location}
                 onChange={(e) => setLocation(e.target.value)}
               />

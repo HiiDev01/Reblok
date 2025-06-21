@@ -1,16 +1,18 @@
 .searchBar{
   width: 100%;
   margin: 0px 0px 20px 0px;
+  display: grid;
+  place-items: center;
 }
 .tyBtnCon{
   width: max-content;
-  background-color: var(--secondary);
+  /*background-color: var(--secondary);*/
   padding: 8px 10px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
 }
 .tyBtn{
   font-family: var(--font-one);
@@ -23,7 +25,7 @@
   border-radius: 3px;
   margin: 0px 5px 0px 0px;
   cursor: pointer;
-  background-color: var(--light);
+  background-color: var(--secondary);
   transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
   box-shadow: 0px 0px 2px var(--light-black);
 }
@@ -37,16 +39,18 @@
 }
 .formCon{
   width: 100%;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .searchForm{
-  width: max-content;
+  width: 60%;
   height: auto;
   padding: 10px 10px;
   display: flex;
-  align-items: center;
-  gap: 10px;
-  background-color: var(--secondary);
+  align-items: flex-end;
+  justify-content: center;
+  gap: 5px;
   backdrop-filter: blur();
   border-top-right-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -54,38 +58,45 @@
   border-top-left-radius: 0px;
 }
 .searchFormWrap{
+  flex: 1;
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 5px;
 }
 .searchFormWrap > div{
   width: 100%;
 }
 .searchFormWrap > div label{
   display: block;
-  font-family: var(--font-two);
+  font-family: var(--font-one);
   font-weight: 600;
   font-size: 0.9rem;
   color: var(--black);
   text-transform: capitalize;
-  margin: 0px 0px 5px 0px;
+  margin: 0px 0px 8px 0px;
+  text-align: left;
+  color: var(--background);
 }
 .searchForm input::placeholder{
-  color: var(--black);
-  font-family: var(--font-two);
+  color: var(  --background);
+  font-family: var(--font-one);
   font-weight: 500;
 }
 .searchForm input,.searchForm select{
+  width: 100%;
   padding: 10px 15px;
   border: none;
-  border: 1px solid var(--light-black);
-  border-radius: 3px;
+  border: 1px solid var(--border);
+  border-radius: 0px;
   outline-style: none;
   background-color: transparent;
-  color: var(--black);
-  font-family: var(--font-two);
-  font-weight: 600;
+  color: var(  --background);
+  font-family: var(--font-one);
+  font-weight: 500;
   font-size: 1rem;
+}
+.searchForm select option{
+  color: var(--black);
 }
 .searchForm input:focus,.searchForm select:focus{
   outline: 1px solid var( --main);
@@ -95,13 +106,12 @@
   color: var(--primary);
   background-color: var(--main);
   font-weight: 600;
-  min-height: 65px;
   font-family: var(--font-three);
   text-transform: capitalize;
   padding: 10px 20px;
   height: 100%;
   border: none;
-  border-radius: 5px;
+  border-radius: 0px;
   cursor: pointer;
   transition: opacity 0.3s ease;
 }

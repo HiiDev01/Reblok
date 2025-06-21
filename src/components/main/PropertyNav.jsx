@@ -51,8 +51,8 @@ const PropertyNav = ({filters, setFilters}) => {
         </select>
         <select id="" value={filters.houseType}  onChange={(e) => handleChange('houseType', e.target.value)}>
           <option value="all">home type</option>
-          <option value="Full Detached">Full Detached</option>
-          <option value="Semi Detached">Semi Detached</option>
+          <option value="Detached">Detached</option>
+          <option value="Apartment">Flat</option>
           <option value="Terrace">Terrace</option>
           <option value="Land">Land</option>
         </select>

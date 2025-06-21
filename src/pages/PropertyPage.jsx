@@ -7,7 +7,7 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import L from 'leaflet';
 import iconUrl from 'leaflet/dist/images/marker-icon.png';
 import iconShadow from 'leaflet/dist/images/marker-shadow.png';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 let DefaultIcon = L.icon({
   iconUrl,
@@ -16,23 +16,35 @@ let DefaultIcon = L.icon({
 L.Marker.prototype.options.icon = DefaultIcon;
 
 const PropertyPage = () => {
+  const location = useLocation();
+  const queryParams = new URLSearchParams(location.search)
   const [allProperty, setAllProperty] = useState([]);
   const [currentPage, setCurrentPage] = useState(1)
   const [postPerPage, setPostPerPage] = useState(4)
   const [filters, setFilters] = useState({
-    location: '',
-    type: 'all',
-    houseType: 'all',
-    bed: 'All',
+    location: queryParams.get('location') || '',
+    type: queryParams.get('type') || 'all',
+    houseType: queryParams.get('houseType') || 'all',
+    bed: queryParams.get('bed') || 'All',
   });///////////////////////////this is to be use for the filter in PropertyNav pass as props
 
 
     //////storing all the filtered properties in one single variable
   const filteredProperties = allProperty.filter(property => {
-    const matchLocation = filters.location === '' || property.location.city.toLowerCase().includes(filters.location.toLowerCase())
-    const matchType = filters.type === 'all' || property.type.toLowerCase().includes(filters.type.toLowerCase())
-    const matchesHouseType = filters.houseType === 'all' || property.types === filters.houseType;
-    const matchesBed = filters.bed === 'All' || property.bedrooms === parseInt(filters.bed);
+    const locationSearch = filters.location.trim().toLowerCase()
+    const matchLocation = filters.location === '' || 
+                          property.location.city.toLowerCase().includes(locationSearch) ||
+                          property.location.address.toLowerCase().includes(locationSearch)
+                          
+    const matchType = filters.type === 'all' || 
+                      property.type.toLowerCase().includes(filters.type.toLowerCase())
+
+    const matchesHouseType = filters.houseType === 'all' || 
+                             property.types === filters.houseType;
+
+    const matchesBed = filters.bed === 'All' || 
+                       property.bedrooms === parseInt(filters.bed);
+
     return matchLocation && matchType && matchesHouseType && matchesBed;
   })
 
