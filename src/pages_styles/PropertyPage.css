@@ -64,3 +64,46 @@
   height: 100%;
   object-fit: cover;
 }
+
+@media (max-width: 1020px) {
+  .propertyContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .propertyMapCon {
+    width: 100%;
+    height: 300px; /* Give fixed height when stacked */
+  }
+
+  .propertyConWrap {
+    flex-direction: column;
+  }
+}
+
+/* Smaller screens */
+@media (max-width: 768px) {
+    .propertyMapCon {
+    display: none;
+  }
+  .propertyWrapper {
+    padding: 0px 10px 20px 10px;
+  }
+
+  .pagBtn {
+    width: 26px;
+    height: 26px;
+    font-size: 0.9rem;
+  }
+}
+
+/* Mobile screens */
+@media (max-width: 480px) {
+  .pagBtn {
+    margin: 0px 3px;
+    font-size: 0.8rem;
+  }
+
+  .mapPopupCon .mapPopupImgCon {
+    height: 120px;
+  }
+}

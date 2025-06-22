@@ -127,3 +127,79 @@
   cursor: pointer;
   text-transform: capitalize;
 }
+
+/* Tablets and below (max-width: 900px) */
+@media (max-width: 900px) {
+  .agentsignupwrap {
+    width: 70%;
+    padding: 20px 15px;
+  }
+
+  .agentsignupwrap h2 {
+    font-size: 1.2rem;
+  }
+
+  .agentsignupwrap .ptitle {
+    font-size: 0.95rem;
+  }
+
+  .agentsignupwrap .logo span img {
+    width: 100px;
+    height: 50px;
+  }
+
+  .agentsignupwrap .logo h4 {
+    font-size: 1.1rem;
+  }
+
+  .names {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .agentSignupForm button {
+    font-size: 1rem;
+    padding: 12px;
+  }
+}
+
+/* Mobile devices (max-width: 600px) */
+@media (max-width: 600px) {
+  .agentsignupwrap {
+    width: 90%;
+    padding: 20px 10px;
+  }
+
+  .agentsignupwrap h2 {
+    font-size: 1.1rem;
+  }
+
+  .agentsignupwrap label {
+    font-size: 0.85rem;
+  }
+
+  .names > div input,
+  .emailItem input,
+  .phoneItem input,
+  .addressItem input {
+    font-size: 0.9rem;
+    padding: 10px 8px;
+  }
+
+  .agentsignupwrap input::placeholder {
+    font-size: 0.95rem;
+  }
+
+  .agentSignupForm button {
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  .agfa {
+    font-size: 0.85rem;
+  }
+
+  .agfa a {
+    font-size: 0.9rem;
+  }
+}

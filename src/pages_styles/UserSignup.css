@@ -101,3 +101,81 @@
   cursor: pointer;
   text-transform: capitalize;
 }
+
+/* Tablets and below (max-width: 900px) */
+@media (max-width: 900px) {
+  .usersignupwrap {
+    width: 70%;
+    padding: 20px 15px;
+  }
+
+  .usersignupwrap h2 {
+    font-size: 1.3rem;
+  }
+
+  .signInForm > div input {
+    padding: 14px 10px;
+  }
+
+  .signInForm button {
+    font-size: 1rem;
+    padding: 12px;
+  }
+
+  .usersignupwrap .logo span img {
+    width: 100px;
+    height: 50px;
+  }
+
+  .usersignupwrap .logo h4 {
+    font-size: 1.1rem;
+  }
+}
+
+/* Mobile devices (max-width: 600px) */
+@media (max-width: 600px) {
+  .usersignupwrap {
+    width: 90%;
+    padding: 20px 10px;
+  }
+
+  .usersignupwrap h2 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+
+  .signInForm > div label {
+    font-size: 0.95rem;
+  }
+
+  .signInForm > div input {
+    font-size: 0.9rem;
+    padding: 12px 8px;
+  }
+
+  .signInForm > div input::placeholder {
+    font-size: 0.95rem;
+  }
+
+  .signInForm button {
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  .belowp {
+    font-size: 0.85rem;
+  }
+
+  .belowp a {
+    font-size: 0.9rem;
+  }
+
+  .usersignupwrap .logo h4 {
+    font-size: 1rem;
+  }
+
+  .usersignupwrap .logo span img {
+    width: 90px;
+    height: 45px;
+  }
+}

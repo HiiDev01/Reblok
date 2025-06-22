@@ -43,17 +43,17 @@ const SearchBar = () => {
       <div className='formCon'>
         <form className='searchForm'>
           <div className='searchFormWrap'>
-            <div>
+            <div className='locationInputWrap'>
               <label htmlFor="location">location</label>
               <input 
                 type="text" 
                 id='location' 
-                placeholder='keywords....'
+                placeholder='enter keywords.... e.g Lekki, ikoyi'
                 value={location}
                 onChange={(e) => setLocation(e.target.value)}
               />
             </div>
-            <div>
+            <div className='TypeInputWrap'>
               <label htmlFor="type">property Type</label>
               <select 
                 id='type'
@@ -67,7 +67,7 @@ const SearchBar = () => {
               </select>
             </div>
   
-            <div>
+            <div className='bedInputWrap'>
               <label htmlFor="bed">Max bed</label>
               <select 
                 id='bed'

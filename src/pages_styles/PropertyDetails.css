@@ -10,7 +10,7 @@
 .proDetWrap{
   flex: 1;
   display: flex;
-  height: calc(100vh - /* Navbar height if fixed */ 0px);
+  height: calc(100vh - 0px);
   overflow: hidden;
 }
 .detWrap{
@@ -73,14 +73,12 @@
 }
 .wrapper{
   width: 100%;
-  border: 2px solid red;
 }
 .imgGrid{
   width: 100%;
   height: auto;
   display: grid;
   grid-template-columns: repeat(5,1fr);
-  /*grid-template-columns: repeat(2,1fr);*/
   column-gap: 5px;
   margin: 0px 0px 30px 0px;
 }
@@ -240,4 +238,63 @@
 .contactForm button:hover{
   opacity: 0.9;
   transition:  opacity 0.3s ease;
+}
+
+
+@media (max-width: 1024px) {
+  .proDetWrap {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .detWrap,
+  .contactAgentCon {
+    width: 100%;
+    height: auto;
+  }
+
+  .contactAgentCon {
+    border: none;
+    padding: 30px 20px;
+  }
+
+  .singleProAbtCon p {
+    width: 100%;
+  }
+
+  .minAbt {
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+  }
+
+  .minAbt > div {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .singleProAbtCon h2 {
+    font-size: 1.2rem;
+  }
+
+  .singleProAbtCon p {
+    font-size: 0.95rem;
+  }
+
+  .popupform > div {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .popupform > div h2 {
+    font-size: 1.3rem;
+  }
+
+  .contactForm label,
+  .contactForm input,
+  .contactForm textarea,
+  .contactForm button {
+    font-size: 0.95rem;
+  }
 }

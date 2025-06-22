@@ -7,3 +7,22 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+@media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1200px) {
+  .min-header {
+    display: none;
+  }
+
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+
+  .header {
+    padding-top: 60px; 
+  }
+}
+}

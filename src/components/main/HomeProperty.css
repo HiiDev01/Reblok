@@ -2,11 +2,13 @@
   width: 100%;
   padding: 2% 0%;
 }
+
 .head, .rentHead{
-  width: max-content;
+  width: 100%;
   padding: 10px;
 }
 .head h3, .rentHead h3{
+  width: 100%;
   font-size: 1.4rem;
   color: var(--black);
   font-weight: 700;
@@ -15,6 +17,7 @@
   margin: 0px 0px 5px 0px;
 }
 .head p{
+  width: 100%;
   font-family: var(--font-three);
   color: var(--light-black);
   font-weight: 400;
@@ -38,12 +41,10 @@
   text-decoration: none;
   cursor: pointer;
 }
-.currentGrid a:hover,.rentGrid a:hover{
 
-}
 .currentItem{
   min-width: 280px;
-  max-width: 300px;
+  max-width: auto;
   min-height: 300px;
   scroll-snap-type: x mandatory;
   background-color: var(--primary);
@@ -209,3 +210,101 @@
   font-weight: 400;
   font-family: var(--font-three);
 }
+
+@media screen and (max-width: 1024px) {
+  .propbody h2 {
+    font-size: 1.1rem;
+  }
+
+  .serviceItems h2 {
+    font-size: 1.3rem;
+  }
+
+  .homeAbout h2 {
+    font-size: 1.7rem;
+  }
+
+  .homeAbout p {
+    width: 80%;
+  }
+
+  .serviceItems .serviceImgCon {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .headP{
+    display: none;
+  }
+  .rentHead p{
+    display: none;
+  }
+  .currentItem {
+    min-width: 250px;
+    max-width: auto;
+  }
+
+  .propbody h2 {
+    font-size: 1rem;
+  }
+
+  .propMin p {
+    font-size: 0.9rem;
+  }
+
+  .service {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .serviceItems {
+    width: 100%;
+    padding: 30px 15px;
+  }
+
+  .serviceItems h2 {
+    font-size: 1.2rem;
+  }
+
+  .homeAbout p {
+    width: 90%;
+    font-size: 1rem;
+  }
+  .head, .rentHead{
+    margin: 0px 0px 30px 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .head, .rentHead {
+    padding: 5px;
+  }
+
+  .propImage {
+    max-height: 130px;
+  }
+
+  .propbody h2 {
+    font-size: 0.95rem;
+  }
+
+  .serviceItems {
+    padding: 25px 15px;
+  }
+
+  .serviceItems .serviceImgCon {
+    width: 150px;
+    height: 150px;
+  }
+
+  .homeAbout h2 {
+    font-size: 1.5rem;
+  }
+
+  .homeAbout p {
+    font-size: 1rem;
+  }
+}
+

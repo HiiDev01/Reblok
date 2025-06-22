@@ -41,31 +41,31 @@ const HomeProperty = () => {
 
 var settings = {
     dots: false,
-    infinite: false,
+    infinite: true,
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 1,
     initialSlide: 0,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1200,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToScroll: 1,
           infinite: true,
-          dots: true
+          dots: false
         }
       },
       {
-        breakpoint: 600,
+        breakpoint: 890,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToScroll: 1,
           initialSlide: 2
         }
       },
       {
-        breakpoint: 480,
+        breakpoint: 580,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
@@ -112,8 +112,8 @@ var settings = {
   return (
     <div className='homeProperty'>
       <div className='head'>
-        <h3>explore beautiful and home of your dream</h3>
-        <p>Current listed houses for sale in desirable neighborhoods with modern amenities.</p>
+        <h3 className='headH3'>explore beautiful and home of your dream</h3>
+        <p className='headP'>Current listed houses for sale in desirable neighborhoods with modern amenities.</p>
       </div>
 
       <div className='currentGrid'>
