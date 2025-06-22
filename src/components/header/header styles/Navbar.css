@@ -49,6 +49,7 @@
 .hamburger{
   width: auto;
   height: auto;
+  display: none;
 }
 .hamburger .bar{
   height: 4px;
@@ -112,4 +113,9 @@
    align-items: center;
    gap: 40px;
  }
+.hamburger{
+  width: auto;
+  height: auto;
+  display: block;
+}
 }
