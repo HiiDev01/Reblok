@@ -8,7 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start:server": "json-server --watch data/db.json --port 5000"
+    "start:server": "json-server --watch data/db.json --port 5000",
+    "start": "vite preview"
   },
   "dependencies": {
     "leaflet": "^1.9.4",
