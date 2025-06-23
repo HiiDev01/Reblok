@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "start:server": "json-server --watch data/db.json --port 5000",
-    "start": "vite preview"
+    "start": "vite preview --host"
   },
   "dependencies": {
     "leaflet": "^1.9.4",
