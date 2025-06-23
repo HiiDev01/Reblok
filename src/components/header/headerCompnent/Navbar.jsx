@@ -1,7 +1,7 @@
 import React, { useState } from 'react' 
 import { Link } from 'react-router-dom'
 import UserNav from './UserNav'
-import '../header styles/Navbar.css'
+import '../headerStyles/Navbar.css'
 
 const pages = [
   {name: 'home', path: '/', id: '1',  },

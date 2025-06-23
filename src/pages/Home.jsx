@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../components/header/header compnent/Header';
+import Header from '../components/header/headerCompnent/Header';
 import HomeProperty from '../components/main/HomeProperty';
 
 

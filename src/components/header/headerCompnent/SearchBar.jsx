@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import '../header styles/SearchBar.css'
+import '../headerStyles/SearchBar.css'
 import { useNavigate } from 'react-router-dom'
 
 const SearchBar = () => {

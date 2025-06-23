@@ -4,7 +4,7 @@ import { FaXTwitter, FaInstagram} from "react-icons/fa6";
 import { BiSolidPhone } from "react-icons/bi";
 import { FaLinkedinIn } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
-import '../header styles/MinHeader.css'
+import '../headerStyles/MinHeader.css'
 
 const MinHeader = () => {
   return (

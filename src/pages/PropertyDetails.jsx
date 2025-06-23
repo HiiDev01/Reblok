@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import '../pages_styles/PropertyDetails.css'
-import Navbar from '../components/header/header compnent/Navbar'
+import Navbar from '../components/header/headerCompnent/Navbar'
 
 const PropertyDetails = () => {
   const {id} = useParams();

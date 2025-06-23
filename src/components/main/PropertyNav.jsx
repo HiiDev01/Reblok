@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
-import Navbar from '../header/header compnent/Navbar'
+import Navbar from '../header/headerCompnent/Navbar'
 import './PropertyNav.css'
 
 

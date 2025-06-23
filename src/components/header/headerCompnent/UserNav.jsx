@@ -1,7 +1,7 @@
 import React, { useEffect,useState } from 'react';
 import { Link } from 'react-router-dom'
 import { IoChatboxEllipsesOutline, IoNotifications } from "react-icons/io5";
-import '../header styles/UserNav.css'
+import '../headerStyles/UserNav.css'
 
 
 const UserNav = () => {
