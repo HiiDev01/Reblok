@@ -12,7 +12,7 @@ const SignIn = () => {
 
   const handleSubmit = async (e) =>{  
     e.preventDefault();
-    const res = await fetch(`http://localhost:5000/user?email=${users.email}&password=${users.password}`)
+    const res = await fetch(`https://reblok-json-sever.onrender.com/user?email=${users.email}&password=${users.password}`)
     const userData = await res.json();
 
     if(userData.length > 0){

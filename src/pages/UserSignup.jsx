@@ -17,7 +17,7 @@ const UserSignup = () => {
     if(!user.email || !user.password){
       setError('pls enter your email and password')
     }
-    const res = await fetch('http://localhost:5000/user', {
+    const res = await fetch('https://reblok-json-sever.onrender.com/user', {
       method: 'POST',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify(user)

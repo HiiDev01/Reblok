@@ -57,7 +57,7 @@ const PropertyPage = () => {
   useEffect(()=>{
     const fetchAllProperty = async() =>{
       try {
-        const res = await fetch('http://localhost:5000/properties')
+        const res = await fetch('https://reblok-json-sever.onrender.com/properties')
         if(!res.ok){
           throw error
         }

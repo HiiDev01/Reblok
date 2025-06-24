@@ -35,7 +35,7 @@ const PropertyDetails = () => {
   useEffect(()=>{
       const properDetail = async() =>{
         try {
-          const res = await fetch(`http://localhost:5000/properties/${id}`)
+          const res = await fetch(`https://reblok-json-sever.onrender.com/properties/${id}`)
           if(!res.ok){
             throw new Error('failed to fetch property')
           }
