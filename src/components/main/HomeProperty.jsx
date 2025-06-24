@@ -96,7 +96,7 @@ var settings = {
   useEffect(()=>{
     const fetchRentProperty = async () =>{
       try {
-        const res = await fetch(`http://localhost:5000/properties?type=rent`)
+        const res = await fetch(`https://reblok-json-sever.onrender.com/properties?type=rent`)
         if(!res.ok){
           throw error
         }
